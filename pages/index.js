@@ -1,7 +1,7 @@
 export default function Index() {
   return (
     <div>
-      <p>Hello Next.js</p>
+      <p>Hello, this is Július Retzer</p>
     </div>
   );
 }
