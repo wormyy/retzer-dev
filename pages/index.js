@@ -1,4 +1,5 @@
 import styles from "./index.module.css";
+import Badge from "../components/badge";
 
 export default function Index() {
   return (
@@ -50,7 +51,10 @@ export default function Index() {
       <div>
         <h3>Resume</h3>
         <div className={`${styles.resumeItem}`}>
-          <h4>LabMaster / Lecturer</h4>
+          <h4>
+            LabMaster / Lecturer <Badge>Contract</Badge>
+          </h4>
+
           <h5>
             <a href="http://www.openlab.sk">OpenLab</a>
           </h5>
@@ -90,7 +94,10 @@ export default function Index() {
           </div>
         </div>
         <div className={`${styles.resumeItem}`}>
-          <h4>Web Developer</h4>
+          <h4>
+            Web Developer <Badge>Full-time</Badge>
+            <Badge>Partially remote</Badge>
+          </h4>
           <h5>
             <a href="http://www.danskebank.dk">Danske Bank</a> /{" "}
             <a href="https://danskebank.dk/bolig/sogning">Danske Bank Bolig</a>
@@ -123,7 +130,9 @@ export default function Index() {
           </div>
         </div>
         <div className={`${styles.resumeItem}`}>
-          <h4>Web Developer</h4>
+          <h4>
+            Web Developer <Badge>Full-time</Badge>
+          </h4>
           <h5>
             <a href="http://www.quadric.net">Quadric</a> /{" "}
             <a href="http://www.feats.co">Feats.co</a>
@@ -157,7 +166,9 @@ export default function Index() {
           </div>
         </div>
         <div className={`${styles.resumeItem}`}>
-          <h4>Junior Web Developer</h4>
+          <h4>
+            Junior Web Developer <Badge>Full-time</Badge>
+          </h4>
           <h5>
             <a href="http://www.edocu.com">eDocu</a>
           </h5>
