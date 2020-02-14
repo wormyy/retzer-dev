@@ -41,9 +41,22 @@ export default function Index() {
           <p>
             Freelance full-stack web developer based in Bratislava, Slovakia. A
             former web developer at{" "}
-            <a href="http://www.danskebank.dk">Danske Bank</a>, currently
-            focusing on <a href="http://www.openlab.sk">OpenLab</a>, where we
-            aim to innovate the IT education in Slovakia.
+            <a
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+              href="http://www.danskebank.dk"
+            >
+              Danske Bank
+            </a>
+            , currently focusing on{" "}
+            <a
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+              href="http://www.openlab.sk"
+            >
+              OpenLab
+            </a>
+            , where we aim to innovate the IT education in Slovakia.
           </p>
         </div>
       </div>
@@ -56,7 +69,13 @@ export default function Index() {
           </h4>
 
           <h5>
-            <a href="http://www.openlab.sk">OpenLab</a>
+            <a
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+              href="http://www.openlab.sk"
+            >
+              OpenLab
+            </a>
           </h5>
           <div className={`${styles.resumeText}`}>
             <p>
@@ -99,8 +118,21 @@ export default function Index() {
             <Badge>Partially remote</Badge>
           </h4>
           <h5>
-            <a href="http://www.danskebank.dk">Danske Bank</a> /{" "}
-            <a href="https://danskebank.dk/bolig/sogning">Danske Bank Bolig</a>
+            <a
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+              href="http://www.danskebank.dk"
+            >
+              Danske Bank
+            </a>{" "}
+            /{" "}
+            <a
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+              href="https://danskebank.dk/bolig/sogning"
+            >
+              Danske Bank Bolig
+            </a>
           </h5>
           <div className={`${styles.resumeText}`}>
             <p>
@@ -134,8 +166,21 @@ export default function Index() {
             Web Developer <Badge>Full-time</Badge>
           </h4>
           <h5>
-            <a href="http://www.quadric.net">Quadric</a> /{" "}
-            <a href="http://www.feats.co">Feats.co</a>
+            <a
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+              href="http://www.quadric.net"
+            >
+              Quadric
+            </a>{" "}
+            /{" "}
+            <a
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+              href="http://www.feats.co"
+            >
+              Feats.co
+            </a>
           </h5>
           <div className={`${styles.resumeText}`}>
             <p>
@@ -170,7 +215,13 @@ export default function Index() {
             Junior Web Developer <Badge>Full-time</Badge>
           </h4>
           <h5>
-            <a href="http://www.edocu.com">eDocu</a>
+            <a
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+              href="http://www.edocu.com"
+            >
+              eDocu
+            </a>
           </h5>
           <div className={`${styles.resumeText}`}>
             <p>
