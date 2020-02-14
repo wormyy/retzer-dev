@@ -1,5 +1,5 @@
 .container {
-  max-width: 1140px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
   margin-top: 150px;
@@ -54,7 +54,8 @@
   justify-content: space-around;
 }
 
-.resume {
+.resumeItem {
+  margin-bottom: 50px;
 }
 
 .resumeText {
@@ -62,7 +63,4 @@
   opacity: 0.666;
   margin-bottom: 13px;
   line-height: 1.4em;
-}
-
-.experience {
 }
