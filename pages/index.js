@@ -68,8 +68,8 @@ export default function Index() {
               </li>
               <li>
                 Teaching students to independently develop applications using
-                web technologies (HTML/CSS/JS/PHP) and frameworks (Vue, Ionic,
-                Angular, OctoberCMS)
+                web technologies (HTML, CSS, JS, PHP) and frameworks (Vue,
+                Ionic, Angular, OctoberCMS)
               </li>
               <li>
                 Guiding students through the entire app development lifecycle
@@ -113,6 +113,13 @@ export default function Index() {
               development of our design system that helps us to stay consistent
               both in the designs and across the implementation.
             </p>
+            <p>
+              Stack: React, Redux, Node, Express, Typescript, PostgreSQL,
+              Elasticsearch, AWS
+            </p>
+            <div className={styles.resumeItemDate}>
+              August 2016 - March 2019 (2 years, 8 months)
+            </div>
           </div>
         </div>
         <div className={`${styles.resumeItem}`}>
@@ -124,7 +131,7 @@ export default function Index() {
           <div className={`${styles.resumeText}`}>
             <p>
               I was part of a small team building a new social network using
-              Meteor and React.js as core technologies. The social network
+              Meteor and React as core technologies. The social network
               eventually became www.feats.co.
             </p>
             <p>Our team:</p>
@@ -143,8 +150,9 @@ export default function Index() {
                 process - always seeks to work with the latest technologies
               </li>
             </ul>
+            <p>Stack: React, Meteor, MongoDB, Cucumber, Chimp</p>
             <div className={styles.resumeItemDate}>
-              August 2016 - March 2019 (2 years, 8 months)
+              February 2016 - June 2016 (5 months)
             </div>
           </div>
         </div>
@@ -168,6 +176,7 @@ export default function Index() {
               <li>migration and utility scripts in Node.js</li>
               <li>learning from the more experienced</li>
             </ul>
+            <p>Stack: AngularJS, Node, Express, MongoDB</p>
             <div className={styles.resumeItemDate}>
               Feb 2015 - Feb 2016 (1 year)
             </div>
