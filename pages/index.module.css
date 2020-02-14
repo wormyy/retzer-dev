@@ -64,3 +64,9 @@
   margin-bottom: 13px;
   line-height: 1.4em;
 }
+
+.resumeItemDate {
+  font-size: 15px;
+  opacity: 0.535;
+  margin: 0;
+}

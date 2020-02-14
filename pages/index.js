@@ -86,6 +86,7 @@ export default function Index() {
                 project
               </li>
             </ul>
+            <div className={styles.resumeItemDate}>May 2019 - present</div>
           </div>
         </div>
         <div className={`${styles.resumeItem}`}>
@@ -142,6 +143,9 @@ export default function Index() {
                 process - always seeks to work with the latest technologies
               </li>
             </ul>
+            <div className={styles.resumeItemDate}>
+              August 2016 - March 2019 (2 years, 8 months)
+            </div>
           </div>
         </div>
         <div className={`${styles.resumeItem}`}>
@@ -164,6 +168,9 @@ export default function Index() {
               <li>migration and utility scripts in Node.js</li>
               <li>learning from the more experienced</li>
             </ul>
+            <div className={styles.resumeItemDate}>
+              Feb 2015 - Feb 2016 (1 year)
+            </div>
           </div>
         </div>
       </div>
