@@ -105,8 +105,8 @@ export default function Index() {
               </li>
               <li>Development of the syllabus and teaching materials</li>
               <li>
-                Contributing to the optimization and viability of the OpenLab
-                project
+                Contributing with ideas to the optimization and viability of the
+                OpenLab project
               </li>
             </ul>
             <div className={styles.resumeItemDate}>May 2019 - present</div>
