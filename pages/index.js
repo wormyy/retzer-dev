@@ -69,7 +69,7 @@ export default function Index() {
               <li>
                 Teaching students to independently develop applications using
                 web technologies (HTML/CSS/JS/PHP) and frameworks (Vue, Ionic,
-                OctoberCMS)
+                Angular, OctoberCMS)
               </li>
               <li>
                 Guiding students through the entire app development lifecycle
@@ -91,7 +91,8 @@ export default function Index() {
         <div className={`${styles.resumeItem}`}>
           <h4>Web Developer</h4>
           <h5>
-            <a href="http://www.danskebank.dk">Danske Bank</a>
+            <a href="http://www.danskebank.dk">Danske Bank</a> /{" "}
+            <a href="https://danskebank.dk/bolig/sogning">Danske Bank Bolig</a>
           </h5>
           <div className={`${styles.resumeText}`}>
             <p>
