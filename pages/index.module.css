@@ -8,13 +8,23 @@
   align-items: center;
 }
 
-.personalInfo {
+.section {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.header {
   width: 300px;
 }
 
+.intro {
+  margin-top: 70px;
+  font-size: 32px;
+  line-height: 1.5625em;
+  opacity: 0.666;
+  font-weight: 300;
+}
 .name {
   margin-top: 10px;
 }
