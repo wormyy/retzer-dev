@@ -130,7 +130,7 @@ export default function Index() {
         </div>
         <div className={`${styles.resumeItem}`}>
           <h4>
-            LabMaster / Lecturer <Badge>Contract</Badge>
+            Lab Master / Lecturer <Badge>Contract</Badge>
           </h4>
 
           <h5>
