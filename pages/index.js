@@ -58,7 +58,7 @@ export default function Index() {
               rel="noreferrer noopener nofollow"
               href="http://slovensko.digital"
             >
-              Slovenko.Digital
+              Slovensko.Digital
             </a>
           </h5>
           <div className={`${styles.resumeText}`}>
