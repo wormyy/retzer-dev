@@ -65,6 +65,71 @@ export default function Index() {
         <h3>Resume</h3>
         <div className={`${styles.resumeItem}`}>
           <h4>
+            Priznanie.digital Lead Developer <Badge>Volunteer</Badge>
+            <Badge>Remote</Badge>
+          </h4>
+
+          <h5>
+            <a
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+              href="http://slovensko.digital"
+            >
+              Slovenko.Digital
+            </a>
+          </h5>
+          <div className={`${styles.resumeText}`}>
+            <p>
+              The process of filing the Slovak tax return form is an arduous
+              ordeal. In its current shape, the user is facing a 130+ field
+              form, described by bureaucratic language and with zero user
+              guidance. Many small business owners choose to delegate this task
+              to external accountants for a considerable fee.
+            </p>
+            <p>
+              Together with other volunteers and slovensko.digital, we designed
+              and developed a simplified wizard-like application called{" "}
+              <a
+                target="_blank"
+                rel="noreferrer noopener nofollow"
+                href="http://priznanie.digital"
+              >
+                priznanie.digital
+              </a>
+              . It covers the most common use cases with as little effort from
+              the user as possible and calculates all necessary tax information
+              for users to upload to the government web.
+            </p>
+            <p>
+              The user experience and accessibility was our focus, as we adhered
+              to{" "}
+              <a
+                target="_blank"
+                rel="noreferrer noopener nofollow"
+                href="https://design-system.service.gov.uk/"
+              >
+                gov.uk Design System
+              </a>
+              .
+            </p>
+            <p>Technology used:</p>
+            <ul>
+              <li>React</li>
+              <li>Typescript</li>
+              <li>Next.js</li>
+              <li>
+                Cypress (extensive automated test suite testing the correctness
+                of the calculations in various use cases)
+              </li>
+              <li>Jest</li>
+              <li>Github Actions (CI)</li>
+              <li>Vercel/Dokku (deployment)</li>
+            </ul>
+            <div className={styles.resumeItemDate}>Februar 2020 - present</div>
+          </div>
+        </div>
+        <div className={`${styles.resumeItem}`}>
+          <h4>
             LabMaster / Lecturer <Badge>Contract</Badge>
           </h4>
 
@@ -109,7 +174,7 @@ export default function Index() {
                 OpenLab project
               </li>
             </ul>
-            <div className={styles.resumeItemDate}>May 2019 - present</div>
+            <div className={styles.resumeItemDate}>May 2019 - June 2020</div>
           </div>
         </div>
         <div className={`${styles.resumeItem}`}>
