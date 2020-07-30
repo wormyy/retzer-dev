@@ -40,6 +40,7 @@ export default function Index() {
         <div className={`${styles.section} ${styles.intro}`}>
           <p>
             Freelance full-stack web developer based in Bratislava, Slovakia.
+          </p>
         </div>
       </div>
 
