@@ -39,25 +39,7 @@ export default function Index() {
         </header>
         <div className={`${styles.section} ${styles.intro}`}>
           <p>
-            Freelance full-stack web developer based in Bratislava, Slovakia. A
-            former web developer at{" "}
-            <a
-              target="_blank"
-              rel="noreferrer noopener nofollow"
-              href="http://www.danskebank.dk"
-            >
-              Danske Bank
-            </a>
-            , currently focusing on{" "}
-            <a
-              target="_blank"
-              rel="noreferrer noopener nofollow"
-              href="http://www.openlab.sk"
-            >
-              OpenLab
-            </a>
-            , where we aim to innovate the IT education in Slovakia.
-          </p>
+            Freelance full-stack web developer based in Bratislava, Slovakia.
         </div>
       </div>
 
